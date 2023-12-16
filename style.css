@@ -30,7 +30,7 @@ section{
 .bannerco{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/2.jpg)
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../2.jpg)
     
     
  
@@ -42,7 +42,7 @@ section{
     height: 100vh;
     margin-top: -80px;
     margin-bottom: 0.8px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/888.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../888.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -63,7 +63,7 @@ section{
     height: 100vh;
     margin-top: -160px;
     margin-bottom: 0.8px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/back1.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../back1.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -72,7 +72,7 @@ section{
 
 .navbar{
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/123.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../123.jpg);
     background-size: cover;
     margin: auto;
     padding:  0px 0;
@@ -87,8 +87,8 @@ section{
     animation-delay: none;
 }
 @keyframes fad {
-    from {background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/123.jpg) ;}
-    to {background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/back4.webp);}
+    from {background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../123.jpg) ;}
+    to {background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../back4.webp);}
   }
 @media only screen and (max-width:400px) {
     .banner{
@@ -159,7 +159,7 @@ section{
 }
 .left{
     flex-basis: 48%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/1626878890330.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../1626878890330.png);
 }
 .right{
     flex-basis: 45%;
@@ -207,7 +207,7 @@ section{
     margin-left: 20px;
     margin-top: -60px;
     margin-bottom: 2%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/123.jpg) ;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../123.jpg) ;
     background-size: cover;
     background-position: center;
     background-attachment: none;
@@ -275,7 +275,7 @@ section{
 
 /** Foter common to all page css**/
 .Quaik{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/123.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../123.jpg);
     width: 100%;
     color: aquamarine;
     display: flex;
@@ -477,7 +477,7 @@ section{
 
 
 /** 
-     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/2.jpg);
+     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../2.jpg);
 } **/
 
 
@@ -550,7 +550,7 @@ section{
     width: 90%;
 }
 .ff{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../2.jpg);
     animation: c 10s ease-in-out infinite;
     border-radius: 5%;
 }
@@ -650,7 +650,7 @@ section{
 .aks{
     margin-left: 0%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../2.jpg);
     border-radius: 20%;
 }
 .aks ul li{
@@ -683,7 +683,7 @@ section{
     margin-left: 0%;
     margin-bottom: 5%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/cliant/2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../2.jpg);
     border-radius: 20%;
 }
 .jjj ul li{
