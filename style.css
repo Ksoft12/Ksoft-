@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 a{
@@ -13,33 +13,240 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'raleway',sans-serif;
 }
 section{
-    padding: 60px 0;
+    padding: 30% 0;
     overflow: hidden;
 }
+
+
+.navnew{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    animation-name: fad;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in-out;
+    animation-delay: none;
+}
+.navleft{
+    flex-basis: 70%;
+}
+.navright{
+    
+    flex-basis: 40%;
+}
+.dd{
+    display: flex;
+}
+.lid{
+    flex-basis: 15%;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.lia a{
+    color: #fff;
+}
+.lib a{
+    color: #fff;
+}
+.lic a{
+    color: #fff;
+}
+.lid a{
+    color: #fff;
+}
+.lid a::after{
+    content: '';
+    height: 0.2%;
+    top: 12.5%;
+    width: 0%;
+    background: #009688;
+    align-content: end;
+    position: absolute;
+    left: 63.3%;
+    bottom: -3%;
+    transition: 0.5s;
+}
+.lid a:hover:after{
+    width: 4%;
+}
+.lia{
+    flex-basis: 25%;
+    
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.lia a::after{
+    content: '';
+    height: 0.2%;
+    top: 12.5%;
+    width: 0%;
+    background: #009688;
+    align-content: end;
+    position: absolute;
+    left: 69%;
+    bottom: -3%;
+    transition: 0.5s;
+}
+.lia a:hover:after{
+    width: 8%;
+}
+
+.lib{
+    flex-basis: 20%;
+    
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.lib a::after{
+    content: '';
+    height: 0.2%;
+    top: 12.5%;
+    width: 0%;
+    background: #009688;
+    align-content: end;
+    position: absolute;
+    left: 78%;
+    bottom: -3%;
+    transition: 0.5s;
+}
+.lib a:hover:after{
+    width: 6%;
+}
+.lic{
+    flex-basis: 25%;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.lic a::after{
+    content: '';
+    height: 0.2%;
+    top: 12.5%;
+    width: 0%;
+    background: #009688;
+    align-content: end;
+    position: absolute;
+    left: 85.2%;
+    bottom: -3%;
+    transition: 0.5s;
+}
+.lic a:hover:after{
+    width: 7.2%;
+}
+.dd li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 100%;
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-left:5% ;
+}
+@keyframes fad {
+    from {background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg) ;}
+    to {background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(back4.webp);}
+  }
+.logo{
+    width: 120px;
+    margin-left: 18%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    background: none;
+}
+
+
+
+.footer{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(back4.webp);
+}
+.start{
+    flex-basis: 40%;
+}
+.midal{
+    flex-basis: 25%;
+}
+.last{
+    flex-basis: 33%;
+}
+.ins h1{
+    color: #ff6602;
+    margin-left: 3.5%;margin-bottom: 1%;margin-top: 1%;
+}
+.inab p{
+    margin-left: 3.5%;
+    
+}
+.inm h1{
+    color: #ff6602;
+    margin-left: 6.5%;margin-bottom: 1%;margin-top: 1%;
+}
+.kk ul li{
+    margin-left: 10.5%;
+    color: #fff;
+    margin-top: 2.3%;
+}
+.kk ul li a{
+    color: #f6f6f7;
+    font-size: 120%;
+    
+}
+.inl h1{
+    color: #ff6602;
+    margin-left: 3.5%;margin-bottom: 1%;margin-top: 1%;
+}
+.inad p{
+    margin-left: 3.5%;
+    margin-bottom: 0.5%;
+
+}
+/** 
+.dd li{
+    display: inline-block;
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-left:10% ;
+}
+.dd li a::after{
+    content: 'a';
+    height: 2%;
+    top: 10%;
+    width: 2%;
+    background: #009688;
+    position: absolute;
+    left: 0%;
+    bottom: -5%;
+    transition: 0.5s;
+}
+.dd li a:hover:after{
+    width: 100%;
+}
+
+ **/
+
+
 /** backgrond common  to all CSS **/
 .bannerin{
     width: 100%;
-    height: 100vh;
-    margin-top: -227.5px;
-    margin-bottom: 0.8px;
-    
+    height: 67vh;
+    margin-top: 4.5%;
+    margin-bottom: 3%;
     background-size: cover;
     background-position: center;
     background-attachment: none;
 }
 .bannerco{
-    width: 100%;
-    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2.jpg)
-    
-    
  
 }
 
 
 .bannercl{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin-top: -80px;
     margin-bottom: 0.8px;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(888.jpg);
@@ -47,16 +254,7 @@ section{
     background-position: center;
     background-attachment: fixed;
 }
-.bannerab{
-    width: 100%;
-    height: 100vh;
-    margin-top: -80px;
-    margin-bottom: 0.8px;
 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
 /**  
 .bannerse{
     width: 100%;
@@ -70,32 +268,84 @@ section{
 }
 **/
 
-.navbar{
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg);
-    background-size: cover;
-    margin: auto;
-    padding:  0px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    animation-name: fad;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-timing-function: ease-in-out;
-    animation-delay: none;
-}
-@keyframes fad {
-    from {background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg) ;}
-    to {background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(back4.webp);}
-  }
-@media only screen and (max-width:400px) {
-    .banner{
-        width:90%;
-        height: 90%;;
+
+
+@media screen and (max-width:980px) {
+    .navnew{
+        width: 130%;
+        align-items: center;
+        justify-content: space-between;
     }
+    .navleft{
+        flex-basis: 50%;
+    }
+    .navright{
+        flex-basis: 50%;
+    }
+    .footer{
+        width: 130%;
+        font-size: 60%;
+        height: -3%;
+    }
+    .bannerin{
+        width: 130%;
+        height: 35vh;
+    }
+    .ssm{
+        width: 130%;
+        margin-top: 5%;
+        height: 10vh;
+    }
+    .main_3{
+        width: 130%;
+    }
+    .ser{
+        width: 130%;
+    }
+    .seright{
+        flex-direction: column;
+        height: 90vh;
+    }
+    .se1, .se2, .se3, .se4{
+        
+        height: 15vh;
+    }
+    .ff{
+        width: 130%;
+    }
+    .aks{
+        width: 130%;
+    }
+    .jjj{
+        width:130%;
+    }
+    .xxc h1{
+        margin-left: 30%;
+     
+    }
+    .ak h1{
+        margin-left: 30%;
+    }
+    .bannerab{
+        width: 130%;
+        height: 100vh;
+        font-size: 120%;
+    }
+    .bannerco{
+       width: 130%;
+       
+     
+    }
+    
+    
+
+  
 }
+
+
+
+
+/** backgrond common  
 @media only screen and (max-width: 424px){
     .test {
         visibility: collapses
@@ -107,54 +357,9 @@ section{
 
 
 
-.logo{
-    width: 120px;
-    margin-left: 10%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    cursor: pointer;
-    background: none;
-}
-.navbar ul li{
-    list-style: none;
-    display: inline;
-    margin: 0 20px;
-    position: relative;
-}
-.navbar ul li a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-}
-.navbar ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #009688;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-}
-.navbar ul li:hover:after{
-    width: 100%;
-}
-/** backgrond common  to all CSS  END  **/
+
+to all CSS  END  **/
 /** Home Page Start css **/
-.first{
-    margin-top: 17%;
-    margin-left: 0%;
-    margin-right: 5%;
-    width: 100%;
-
-}
-.annu p{
-    color: #24a910;
-    font-size: 400%;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-
 
 .main{
     
@@ -163,7 +368,7 @@ section{
     margin-top: 30px;
     margin-bottom: 5%;
     width: 95%;
-    
+    height: 100%;
     color: aquamarine;
     display: flex ;
     flex: content;
@@ -212,58 +417,52 @@ section{
     color: #fff;
 }
 
-.main_2{
-    width:98% ;
-    height: 20vh;
-    margin-left: 20px;
-    margin-top: -60px;
-    margin-bottom: 2%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg) ;
-    background-size: cover;
-    background-position: center;
-    background-attachment: none;
+
+.ssm{
+    margin-bottom: 3%;
     display: flex;
-}
-.left2{
-    flex-basis: 48%;
-    
-}
-.left2 h1{
-    color: #fff;
-    margin-top: 50px;
-    margin-left: 180px;
-}
-.right2{
-    flex-basis: 45%;
-}
-.right2 p{
-    margin-top: 6%;
-    font-size: 125%;
-    color: #fff;
-}
-.main_3{
-    width:98% ;
-    height: 50vh;
-    margin-left: 30px;
-    margin-top: -15px;
-    margin-bottom: 2%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg);
    
-    background-size: cover;
-    background-position: center;
-    background-attachment: none;
+}
+.leftsm{
+    
+    flex-basis: 40%;
+}
+.leftsm h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+}
+.rightsm{
+    
+    flex-basis: 60%;
+}
+.rightsm p{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1.3%;
+    font-size: 140%;
+
+}
+
+
+
+
+
+.main_3{
+    margin-bottom: 3%;
     display: flex;
 }
 .Automotive{
     width: 62%;
-    margin-left: 10%;
+    margin-left: 17%;
     margin-top: 5%;
     margin-bottom: 1%;
-    cursor: pointer;
-    background: none;
+    
 }
 .stell{
     width: 55%;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 5%;
     margin-bottom: 1%;
     cursor: pointer;
@@ -277,14 +476,14 @@ section{
     flex-basis: 45%;
 }
 .letter h1{
-    margin-left: 25%;
-    transform: rotateY(360deg);
+    text-align: center;
+    
 }
 
 
 /** Home Page Start **/
 
-/** Foter common to all page css**/
+/** Foter common to all page css
 .Quaik{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg);
     width: 100%;
@@ -342,6 +541,7 @@ section{
     color:#f6c6f7;
     margin-bottom: 10%;
 }
+**/
 /** Foter common to all page css**/
 
 
@@ -403,14 +603,12 @@ section{
 /** About Section CSS **/
 
 .rv{
-    
-   
     width: 95%;
     display: flex ;
     flex: content;
 }
 .abimd{
-    
+    flex-basis: 30%;
     margin-top: 8%;
 }
 .s1{
@@ -423,15 +621,12 @@ section{
 }
 
 .tt{
-    margin-top: 8%;
     margin-left: 4%;
     flex-grow: 1;
-    
-    flex-basis: 120%;
-   
+    flex-basis: 70%;
 }
 .mainhd{
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     margin-left: 2%;
     position: relative;
     
@@ -478,6 +673,7 @@ section{
     color: black;
     margin-left: 2%;
     margin-left: 2%;
+    margin-bottom: 2%;
 }
 .list-unstyled1 li p{
     color: black;
@@ -498,7 +694,7 @@ section{
 /** Services Section CSS **/
 
 .ser{
-    width: 100%;
+    margin-top: 3%;
     margin-bottom: 3%;
 }
 .ser h1{
@@ -540,26 +736,12 @@ section{
     flex-basis: 50%;
  
 }
-.se1{
+.se1, .se2, .se3, .se4{
     margin-top: 15%;
     margin-left: 5%;
     width: 90%;
 }
-.se2{
-    margin-top: 15%;
-    margin-left: 5%;
-    width: 90%;
-}
-.se3{
-    margin-top: 15%;
-    margin-left: 5%;
-    width: 90%;
-}
-.se4{
-    margin-top: 17%;
-    margin-left: 5%;
-    width: 90%;
-}
+
 .ff{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2.jpg);
     animation: c 10s ease-in-out infinite;
@@ -660,7 +842,6 @@ section{
 }
 .aks{
     margin-left: 0%;
-    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2.jpg);
     border-radius: 20%;
 }
@@ -676,12 +857,11 @@ section{
 .ak h1{
     text-align: center;
     margin-top: 2%;
-    padding: 0px 0px 70px;
+    margin-bottom: 2%;
     font-family: loto;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 30px;
-    margin-bottom: -1%;
+    font-size: 170%;
 }
 .ak h1 span{
     color: #ff6602;
@@ -693,7 +873,6 @@ section{
 .jjj{
     margin-left: 0%;
     margin-bottom: 5%;
-    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2.jpg);
     border-radius: 20%;
 }
@@ -709,12 +888,11 @@ section{
 .xxc h1{
     text-align: center;
     margin-top: 2%;
-    padding: 0px 0px 70px;
+    margin-bottom: 2%;
     font-family: loto;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 30px;
-    margin-bottom: -1%;
+    font-size: 170%;
 }
 .xxc h1 span{
     color: #ff6602;
@@ -831,7 +1009,6 @@ section{
 /** Conttact Section CSS **/
 
 .contacth{
-    
     width: 80%;
     margin-top: 0%;
     margin-left: 10%;
