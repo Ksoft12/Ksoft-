@@ -1,0 +1,1198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'raleway',sans-serif;
+}
+section{
+    padding: 30% 0;
+    overflow: hidden;
+}
+
+
+.navnew{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    animation-name: fad;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-in-out;
+    animation-delay: none;
+}
+.navleft{
+    flex-basis: 70%;
+}
+.navright{
+    
+    flex-basis: 40%;
+}
+.dd{
+    display: flex;
+}
+.lid{
+    flex-basis: 15%;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.lia a{
+    color: #fff;
+}
+.lib a{
+    color: #fff;
+}
+.lic a{
+    color: #fff;
+}
+.lid a{
+    color: #fff;
+}
+.lid a::after{
+    content: '';
+    height: 0.2%;
+    top: 12.5%;
+    width: 0%;
+    background: #009688;
+    align-content: end;
+    position: absolute;
+    left: 63.3%;
+    bottom: -3%;
+    transition: 0.5s;
+}
+.lid a:hover:after{
+    width: 4%;
+}
+.lia{
+    flex-basis: 25%;
+    
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.lia a::after{
+    content: '';
+    height: 0.2%;
+    top: 12.5%;
+    width: 0%;
+    background: #009688;
+    align-content: end;
+    position: absolute;
+    left: 69%;
+    bottom: -3%;
+    transition: 0.5s;
+}
+.lia a:hover:after{
+    width: 8%;
+}
+
+.lib{
+    flex-basis: 20%;
+    
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.lib a::after{
+    content: '';
+    height: 0.2%;
+    top: 12.5%;
+    width: 0%;
+    background: #009688;
+    align-content: end;
+    position: absolute;
+    left: 78%;
+    bottom: -3%;
+    transition: 0.5s;
+}
+.lib a:hover:after{
+    width: 6%;
+}
+.lic{
+    flex-basis: 25%;
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+.lic a::after{
+    content: '';
+    height: 0.2%;
+    top: 12.5%;
+    width: 0%;
+    background: #009688;
+    align-content: end;
+    position: absolute;
+    left: 85.2%;
+    bottom: -3%;
+    transition: 0.5s;
+}
+.lic a:hover:after{
+    width: 7.2%;
+}
+.dd li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 100%;
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-left:5% ;
+}
+@keyframes fad {
+    from {background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg) ;}
+    to {background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(back4.webp);}
+  }
+.logo{
+    width: 120px;
+    margin-left: 18%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    background: none;
+}
+
+
+
+.footer{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(back4.webp);
+}
+.start{
+    flex-basis: 40%;
+}
+.midal{
+    flex-basis: 25%;
+}
+.last{
+    flex-basis: 33%;
+}
+.ins h1{
+    color: #ff6602;
+    margin-left: 3.5%;margin-bottom: 1%;margin-top: 1%;
+}
+.inab p{
+    margin-left: 3.5%;
+    
+}
+.inm h1{
+    color: #ff6602;
+    margin-left: 6.5%;margin-bottom: 1%;margin-top: 1%;
+}
+.kk ul li{
+    margin-left: 10.5%;
+    color: #fff;
+    margin-top: 2.3%;
+}
+.kk ul li a{
+    color: #f6f6f7;
+    font-size: 120%;
+    
+}
+.inl h1{
+    color: #ff6602;
+    margin-left: 3.5%;margin-bottom: 1%;margin-top: 1%;
+}
+.inad p{
+    margin-left: 3.5%;
+    margin-bottom: 0.5%;
+
+}
+/** 
+.dd li{
+    display: inline-block;
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-left:10% ;
+}
+.dd li a::after{
+    content: 'a';
+    height: 2%;
+    top: 10%;
+    width: 2%;
+    background: #009688;
+    position: absolute;
+    left: 0%;
+    bottom: -5%;
+    transition: 0.5s;
+}
+.dd li a:hover:after{
+    width: 100%;
+}
+
+ **/
+
+
+/** backgrond common  to all CSS **/
+.bannerin{
+    width: 100%;
+    height: 67vh;
+    margin-top: 4.5%;
+    margin-bottom: 3%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: none;
+}
+.bannerco{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2.jpg)
+ 
+}
+
+
+.bannercl{
+    width: 100%;
+    height: 100%;
+    margin-top: -80px;
+    margin-bottom: 0.8px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(888.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/**  
+.bannerse{
+    width: 100%;
+    height: 100vh;
+    margin-top: -160px;
+    margin-bottom: 0.8px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(back1.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+**/
+
+
+
+@media screen and (max-width:980px) {
+    .navnew{
+        width: 130%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navleft{
+        flex-basis: 50%;
+    }
+    .navright{
+        flex-basis: 50%;
+    }
+    .footer{
+        width: 130%;
+        font-size: 60%;
+        height: -3%;
+    }
+    .bannerin{
+        width: 130%;
+        height: 35vh;
+    }
+    .ssm{
+        width: 130%;
+        margin-top: 5%;
+        height: 10vh;
+    }
+    .main_3{
+        width: 130%;
+    }
+    .ser{
+        width: 130%;
+    }
+    .seright{
+        flex-direction: column;
+        height: 90vh;
+    }
+    .se1, .se2, .se3, .se4{
+        
+        height: 15vh;
+    }
+    .ff{
+        width: 130%;
+    }
+    .aks{
+        width: 130%;
+    }
+    .jjj{
+        width:130%;
+    }
+    .xxc h1{
+        margin-left: 30%;
+     
+    }
+    .ak h1{
+        margin-left: 30%;
+    }
+    .bannerab{
+        width: 130%;
+        height: 100vh;
+        font-size: 120%;
+    }
+    .bannerco{
+       width: 130%;
+       
+     
+    }
+    
+    
+
+  
+}
+
+
+
+
+/** backgrond common  
+@media only screen and (max-width: 424px){
+    .test {
+        visibility: collapses
+    }
+    .phonetext {
+        visibility: visible;
+    }
+}
+
+
+
+
+to all CSS  END  **/
+/** Home Page Start css **/
+
+.main{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    width: 95%;
+    height: 100%;
+    color: aquamarine;
+    display: flex ;
+    flex: content;
+}
+.left{
+    flex-basis: 48%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(1626878890330.png);
+}
+.right{
+    flex-basis: 45%;
+    flex-grow: 0.5;
+    background-color: #24a910;
+}
+.right h1{
+    margin-top: 6%;
+    position: relative; margin-left: 3%;
+    font-size: 2vw;
+    color: aqua;
+    -webkit-text-stroke: 0.3px #24a910;
+}
+.right h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0;
+    height: 100%;
+    color: #f1901aee;
+    -webkit-text-stroke: 0px #24a910;
+    border-right: 2px solid #f1901aee;
+    overflow: hidden;
+    animation: ss 5s linear infinite;
+}
+@keyframes ss{
+    0%,10%,60%,100%{
+        width: 0;
+    }
+    50%,0%{
+        width: 60%;
+    }
+}
+.inside p{
+    margin-left: 3%;
+    margin-top: 4%;
+    font-size: 150%;
+    color: #fff;
+}
+
+
+.ssm{
+    margin-bottom: 3%;
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg);
+   
+}
+.leftsm{
+    
+    flex-basis: 40%;
+}
+.leftsm h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+}
+.rightsm{
+    
+    flex-basis: 60%;
+}
+.rightsm p{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1.3%;
+    font-size: 140%;
+
+}
+
+
+
+
+
+.main_3{
+    margin-bottom: 3%;
+    display: flex;
+}
+.Automotive{
+    width: 62%;
+    margin-left: 17%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    
+}
+.stell{
+    width: 55%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    background: none;
+}
+.left3{
+    flex-basis: 48%;
+    margin-left: 8%;
+}
+.right3{
+    flex-basis: 45%;
+}
+.letter h1{
+    text-align: center;
+    
+}
+
+
+/** Home Page Start **/
+
+/** Foter common to all page css
+.Quaik{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(123.jpg);
+    width: 100%;
+    color: aquamarine;
+    display: flex;
+    
+}
+.start h1{
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 90%;
+    font-size: 90%; 
+     
+}
+.inab{
+    margin-top: 2%;
+    margin-left: 0%;
+    width: 50%;
+    color:#f6c6f7;
+    
+}
+.midal h1{
+    margin-top: 20%;
+    margin-bottom: 15%;
+    margin-left: -250%;
+    width: 90%;
+    font-size: 90%;  
+}
+.kk ul{
+    margin-top: 2%;
+    margin-left: -230%;
+    width: 120%;
+    color:#f6c6f7;
+    
+}
+.kk ul li{
+    margin-bottom: 10%;
+}
+.kk ul li a{
+    color: #f6c6f7;
+    font-size: 100%;
+
+    
+}
+.last h1{
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 100%;
+    font-size: 90%;  
+}
+.inad{
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 100%;
+    color:#f6c6f7;
+    margin-bottom: 10%;
+}
+**/
+/** Foter common to all page css**/
+
+
+/** Clainent Section CSS **/
+
+.project{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+
+}
+.details h4{
+    color: #691af1;
+    font-size: 180%;
+}
+
+
+.clients{
+    background-color: #f6f6f7;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 20%;
+    
+    
+}
+.vvvvv{
+    width: 200%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vvvvv kl li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+    padding: 10px 0;
+
+}
+.img{
+    width: 130px;
+    cursor: pointer;
+    filter: hue-rotate(90%);
+    display: inline-block;
+    border-radius: 20%;
+    padding: 15px 0;
+    margin: none;
+    transition: 0.4s ease-in-out;
+}
+.img:hover{
+    filter: drop-shadow(8px 10px 11px 5px);
+    transform: scale(1.1);
+}
+/** Clainent Section CSS **/
+
+/** About Section CSS **/
+
+.rv{
+    width: 95%;
+    display: flex ;
+    flex: content;
+}
+.abimd{
+    flex-basis: 30%;
+    margin-top: 8%;
+}
+.s1{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    background: none;
+}
+
+.tt{
+    margin-left: 4%;
+    flex-grow: 1;
+    flex-basis: 70%;
+}
+.mainhd{
+    margin-bottom: 1%;
+    margin-left: 2%;
+    position: relative;
+    
+}
+.mainhd h1{
+    margin-left: 2%;
+    animation:aa 4s ease-in-out infinite;
+}
+@keyframes aa{
+    0%   {color:#009688;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+.mainsub h2{
+    margin-left: 2%;
+    font-size: 130%;
+    margin-bottom:2% ;
+}
+.mainsub p{
+    color: black;
+    margin-left: 2%;
+    font-size: 130%;
+    margin-bottom: 1%;
+}
+.submain h4{
+    margin-left: 2%;
+    font-size: 130%;
+    margin-bottom: 1%;
+}
+.submain p{
+    color: black;
+    margin-left: 2%;
+    font-size: 130%;
+    margin-bottom: 1%;
+
+}
+.lastmain h1{
+    margin-left: 2%;
+    font-size: 120%;
+    margin-bottom: 1%;
+}
+.list-unstyled1{
+    color: black;
+    margin-left: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.list-unstyled1 li p{
+    color: black;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-size: 130%;
+}
+
+
+/** 
+     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2.jpg);
+} **/
+
+
+/** About Section CSS **/
+
+
+/** Services Section CSS **/
+
+.ser{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.ser h1{
+    margin-left: 35%;
+    margin-top: 2%;
+
+}
+.ser1{
+    margin-top: 2%;
+    width: 85%;
+    margin-left: 5%;
+    display: flex;
+}
+.Seleft{
+    flex-basis: 65%;
+}
+.seright{
+    flex-basis: 55%;
+    
+    display: flex;
+}
+.Seleft h2{
+    font-size: 170%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.Seleft p{
+    font-size: 150%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    color: rgb(255, 55, 0);
+}
+.qr{
+    flex-basis: 50%;
+    
+}
+.ql{
+    flex-basis: 50%;
+ 
+}
+.se1, .se2, .se3, .se4{
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.ff{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2.jpg);
+    animation: c 10s ease-in-out infinite;
+    border-radius: 5%;
+}
+.sermidal{
+    
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 0%;
+}
+.mi0 h2{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 220%;
+    color: #fff;
+    animation: tt 4s ease-in-out infinite;
+}
+@keyframes tt{
+    0%   {color: #f6c6f7;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: rgb(75, 228, 111);}
+    50%  {color: blue;}
+    25%  {color: yellow;}
+}
+.ser2mid{
+    
+    display: flex;
+    width: 100%;
+    margin-top: -5%;
+   
+    margin-bottom: 5%;
+    
+    
+}
+@keyframes c {
+    0% {background-position: center;}
+    20% {background-position: right;}
+    40% {background-position: top;}
+    60% {background-position: left;}
+    80% {background-position: bottom ;}
+    100% {background-position: center;}
+  }
+
+.mid2left{
+    flex-basis: 50%;
+    
+    
+}
+.mid2right{
+    
+    flex-basis: 50%;
+ 
+}
+.sem1{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+}
+.mid2left h1{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 150%;
+    color: #fff;
+}
+.mid2left p{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 120%;
+    margin-bottom: 3%;
+}
+.mid2right h1{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 150%;
+    color: #fff;
+}
+.mid2right p{
+    text-align: center;
+    margin-top: 1%;
+    font-size: 120%;
+}
+.sem2{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+}
+.sem3{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+}
+.sem4{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+}
+.aks{
+    margin-left: 0%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2.jpg);
+    border-radius: 20%;
+}
+.aks ul li{
+    display: inline-block;
+}
+.de{
+    display: flex;
+}
+.de li{
+    margin-left: 10%;
+}
+.ak h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: loto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 170%;
+}
+.ak h1 span{
+    color: #ff6602;
+}
+
+
+
+
+.jjj{
+    margin-left: 0%;
+    margin-bottom: 5%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(2.jpg);
+    border-radius: 20%;
+}
+.jjj ul li{
+    display: inline-block;
+}
+.lllk{
+    display: flex;
+}
+.lllk li{
+    margin-left: 10%;
+}
+.xxc h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: loto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 170%;
+}
+.xxc h1 span{
+    color: #ff6602;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.client-area{
+    padding: 150px 0 0;
+}
+.slick-side{
+    margin: 0px 20px;
+}
+.slick-side img{
+    width: 100%;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+.slick-list:focus{
+    outline: none;
+}
+.slick-side{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+
+}
+.slick-side img{
+    display: block;
+}
+.slick-initialized .slick-side{
+    display: block;
+}
+.slick-loading .slick-side{
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 75%;
+
+}
+.llll h10{
+    color: #009688;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.asas{
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 15%;
+}
+
+/** Services Section CSS **/
+
+
+/** Conttact Section CSS **/
+
+.contacth{
+    width: 80%;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+.contacth h1,p{
+    color: #fff;
+}
+.contact-box{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    
+    color: aquamarine;
+    display: flex;
+}
+.box_left{
+    flex-basis: 60%;
+    padding: 60px 30px;   
+}
+.box_left h3{
+    color: #fff;
+    margin-top: -30px;margin-bottom: 20px;
+}
+.box_right{
+    flex-basis: 50%;
+    padding: 60px 30px;
+   
+    background: none;
+}
+.box_right h3{
+    color: #fff;
+    margin-top: -30px;margin-bottom: 20px;
+    
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20PX;
+    
+}
+.input-row .input-group{
+    flex-basis: 40%;
+}
+.input-row .input-group input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #009688;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #009688;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+lable {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+}
+button{
+    background: #691af1;
+    width: 80px;
+    height: 30px;
+    margin-top: 100px;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+table{
+    margin-top: -20px;
+}
+tr td:first-child{
+    padding-right: 20px;
+    
+}
+tr td a{
+    padding-top: 20px;
+    margin-top: -10%;
+    color: #f1901aee;
+}
+tr td {
+    padding-top: 20px;
+    margin-top: -10%;
+    color: #f1901aee;
+    ;
+}
+.box_right p{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Conttact Section CSS .about{
+    background-color: #f6c6f7;
+    text-align: center;
+    padding: 5px 0;
+    width: 40%
+    
+}
+.fff{
+    width: 55%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    padding: 30px;
+}
+.rightside{
+    margin-left: 60%;
+    padding: -10px;
+    margin-top: -40%;
+    margin-bottom: 10%;
+    position: relative;
+    z-index: 8;
+}
+.start h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-display: 11%;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+}
+.phara p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    align-items: center;
+    font-size: large;
+    justify-content: space-between;
+}
+.rightside h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 180%;
+    color: aliceblue;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+.li{
+    margin-top: auto;
+}
+.li p,p,p,p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    align-items: center;
+    font-size: 130%;
+    justify-content: space-between;
+}
+.list-unstyled{
+    color: aliceblue;
+} **/
+
