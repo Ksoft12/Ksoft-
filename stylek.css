@@ -361,7 +361,7 @@ section{
 
 to all CSS  END  **/
 /** Home Page Start css **/
-/**
+
 .main{
     
     margin-left: 5%;
@@ -404,7 +404,7 @@ to all CSS  END  **/
     overflow: hidden;
     animation: ss 5s linear infinite;
 }
-**/
+
 @keyframes ss{
     0%,10%,60%,100%{
         width: 0;
