@@ -361,7 +361,7 @@ section{
 
 to all CSS  END  **/
 /** Home Page Start css **/
-
+/**
 .main{
     
     margin-left: 5%;
@@ -383,7 +383,7 @@ to all CSS  END  **/
     flex-grow: 0.5;
     background-color: #24a910;
 }
-/**
+
 .right h1{
     margin-top: 6%;
     position: relative; margin-left: 3%;
