@@ -32,18 +32,18 @@ section{
     animation-delay: none;
 }
 .navleft{
-    flex-basis: auto;
+    flex-basis: 70%;
 }
 .navright{
     
-    flex-basis: auto;
+    flex-basis: 40%;
 }
 .dd{
     display: flex;
 }
 .lid{
-    flex-basis: auto;
-    margin-top: auto;
+    flex-basis: 15%;
+    margin-top: 5%;
     text-transform: uppercase;
 }
 .lia a{
