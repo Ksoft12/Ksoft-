@@ -23,26 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // script.js
 
-// Select the services button and the dropdown list
-
-const dropdownList = document.querySelector('.dropdown-list');
-
-// Add a click event listener to toggle the dropdown
-//servicesBtn.addEventListener('click', (event) => {
-//  event.preventDefault(); // Prevent the default link behavior
- // dropdownList.classList.toggle('show-dropdown');
-//});
-const servicesBtn = document.querySelector('.services-btn');
-servicesBtn.addEventListener('click', () => {
-  // Remove event.preventDefault(); so the link works
-});
-
-// Close the dropdown when clicking outside
-document.addEventListener('click', (event) => {
-  if (!servicesBtn.contains(event.target) && !dropdownList.contains(event.target)) {
-    dropdownList.classList.remove('show-dropdown');
-  }
-});
 
 
 
@@ -50,83 +30,6 @@ document.addEventListener('click', (event) => {
 
 
 
-
-
-/// Function to handle the display of sections based on URL hash
-function showSectionBasedOnHash() {
-  const urlHash = window.location.hash; // Get the hash from the URL (e.g., #automation-engineering)
-
-  // Get all service sections by class
-  const sections = document.querySelectorAll('.service-section');
-
-  // Hide all sections by default
-  sections.forEach(section => {
-    section.style.display = 'none';
-  });
-
-  // Show the section that matches the hash after a delay
-  if (urlHash) {
-    const targetSection = document.querySelector(urlHash);
-    if (targetSection) {
-      setTimeout(() => {
-        targetSection.style.display = 'block';
-        window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top of the page
-      }, 100); // Adjust the delay as needed (100ms in this example)
-    } else {
-      console.error('Section not found:', urlHash);
-    }
-  } else {
-    // If no hash is present, you can choose to show a default section or hide all sections
-    console.log('No hash present. No sections will be shown.');
-  }
-}
-
-// Run the function on initial page load
-window.onload = function () {
-  showSectionBasedOnHash(); // Run the function immediately on page load
-};
-
-// Listen for changes in the hash and update the displayed section accordingly
-window.onhashchange = showSectionBasedOnHash;
-
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  /// Function to handle the display of sections based on URL hash
-  function showSectionBasedOnHash() {
-    const urlHash = window.location.hash; // Get the hash from the URL (e.g., #automation-engineering)
-
-    // Get all service sections by class
-    const sections = document.querySelectorAll('.service-section');
-
-    // Hide all sections by default
-    sections.forEach(section => {
-      section.style.display = 'none';
-    });
-
-    // Show the section that matches the hash after a delay
-    if (urlHash) {
-      const targetSection = document.querySelector(urlHash);
-      if (targetSection) {
-        setTimeout(() => {
-          targetSection.style.display = 'block';
-          window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top of the page
-        }, 100); // Adjust the delay as needed (100ms in this example)
-      } else {
-        console.error('Section not found:', urlHash);
-      }
-    } else {
-      // If no hash is present, you can choose to show a default section or hide all sections
-      console.log('No hash present. No sections will be shown.');
-    }
-  }
-
-  // Run the function on initial page load
-  showSectionBasedOnHash();
-
-  // Listen for changes in the hash and update the displayed section accordingly
-  window.addEventListener('hashchange', showSectionBasedOnHash);
-});
 
 
 
