@@ -657,15 +657,15 @@ body {
 /* 320px Screen Width */
 @media (max-width: 320px) {
   .background-slideshow {
-    height: 80vh;
-    margin-bottom: -105%;
+    height: 110vh;
+    margin-bottom: -150%;
 
   }
 
   .content {
-    padding: 8px;
+    padding: 5px;
     background:rgba(250, 247, 247, 0.7);
-    margin-top: -16%;
+    margin-top: -21%;
     
   }
 
