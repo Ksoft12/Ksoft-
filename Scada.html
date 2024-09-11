@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KSOFT ENGINERRING CONSULTANCY SERVICES</title>
+  <link rel="stylesheet" href="stylek.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="KSOFT_LOGO (1).png" alt="Company Logo"></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li class="services-dropdown">
+            <a href="Services.html" class="services-btn">Services</a>
+            <ul class="dropdown-list">
+                <li><a href="PLC Programming and System Integration Services.html">PLC Programming and System Integration</a></li>
+                <li><a href="Scada.html">SCADA Development</a></li>
+                <li><a href="FAT.html">Factory Acceptance Testing (FAT) Support</a></li>
+                <li><a href="SAT.html">Site Acceptance Testing (SAT) Support and Commissioning</a></li>
+                <li><a href="PROCESS SIMULATION.html">Tecnomaticx Process Simulation</a></li>
+                <li><a href="VC.html">Tecnomatix virtual Commissioning</a></li>
+            </ul>
+          </li>
+          <li><a href="Carrer.html">Career</a></li>
+          <br>
+          <li><a href="Contact US.html">Contact Us</a></li>
+          
+        <div class="menu-icon">
+          <i class="fa fa-bars"></i>
+        </div>
+      </nav>
+ 
+
+  <!-- Your existing sections -->
+  <section class="background-slideshow">
+    <div class="background-container">
+      <div class="slide">
+        <img src="PL CE-43352 DE DE TAC_900.045_DE_WBNR_Process Simulate Update-LP_tcm53-76794.jpg" alt="Slide 1">
+      </div>
+      <div class="slide">
+        <img src="KUKA_Production_2021_300_dpi-scaled.jpg" alt="Slide 2">
+      </div>
+      <div class="slide">
+        <img src="1.-Cover_-Adobe-stock-scaled.jpeg" alt="Slide 3">
+      </div>
+      <div class="slide">
+        <img src="conveyor-2.jpeg" alt="Slide 4">
+      </div>
+      
+    </div>
+    <div class="content">
+      <h1>Our Services</h1>
+      <p>We provide top-notch automation engineering services.</p>
+    </div>
+  </section>
+
+
+
+
+<!-- PLC / HMI Platforms Section -->
+<section id="plc-hmi-platforms" class="service-section odd-section">
+    <div class="service-content">
+      <div class="service-text">
+        
+        <h2>Ignition SCADA Development</h2>
+        <p>At KSOFT Engineering Consultancy Services, we deliver tailored Ignition SCADA solutions designed to meet the unique needs of your industrial operations. As a certified Ignition credentialed integrator, we have the expertise to develop scalable systems that offer real-time monitoring, control, and advanced analytics, all from a single, centralized platform. Whether you’re managing a small facility or a large enterprise, we ensure seamless integration with your existing infrastructure, including PLCs, robots, drives, and other industrial equipment.
+        </p>
+        <p>Our solutions empower industries such as automotive, manufacturing, and energy to enhance operational efficiency, improve decision-making, and maintain continuous control over complex processes. Our team of certified Ignition SCADA professionals is dedicated to delivering systems that not only meet your immediate needs but are also designed to scale as your business grows.
+        </p>
+        <p>Contact us today to discover how our Ignition SCADA Development services can transform your industrial automation and drive your business forward.
+        </p>
+        <img src="Screenshot 2024-09-06 180045.png" alt="PLC / HMI Platforms Image">
+
+       
+          
+        <p class="link"><a href="Contact US.html" class="cta-button">Contact Us</a></p>
+          
+          
+      
+        
+      </div>
+      <div class="video-container">
+        <h2>Discover the Power of Ignition: Comprehensive Demo Video</h2>
+        <p>At KSOFT ENGINEERING CONSULTANCY SERVICES, Welcome to our detailed Ignition demo project video! This presentation offers a thorough exploration of the Ignition platform, designed to showcase its capabilities and how it can significantly enhance your operational processes.</p>
+        
+        <h3>Live Demonstration: Ignition in Action</h3>
+        <p>At KSOFT ENGINEERING CONSULTANCY SERVICES, Experience Ignition live through our real-time demonstration. This segment highlights how Ignition manages data acquisition, visualization, and control. Watch as we walk you through practical scenarios and showcase the platform’s efficiency in handling complex tasks.</p>
+        
+      <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7239131228149317632?compact=1" height="399" width="670" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+            
+        
+            
+            
+        
+    </div>
+
+  </section>
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Function to pause videos and reset iframe
+        function pauseAndResetVideo(iframe) {
+            if (iframe) {
+                // To reset the iframe video, we will set the iframe's source to a blank page
+                const src = iframe.src;
+                iframe.src = ''; // Temporarily remove the src
+                iframe.src = src; // Restore the src to reset the video
+            }
+        }
+
+        // Function to handle section visibility
+        function handleSectionVisibility(entry, isVisible) {
+            const iframe = entry.target.querySelector('iframe');
+            if (iframe) {
+                if (!isVisible) {
+                    // Pause and reset video if the section is not visible
+                    pauseAndResetVideo(iframe);
+                }
+            }
+        }
+
+        // Create an IntersectionObserver to monitor section visibility
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                handleSectionVisibility(entry, entry.isIntersecting);
+            });
+        }, {
+            threshold: [0] // Trigger callback when section is at least 0% visible
+        });
+
+        // Observe each section with videos
+        const sectionsWithVideos = document.querySelectorAll('.video-container');
+        sectionsWithVideos.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Optional: Pause and reset videos if the user navigates to a different section
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function() {
+                const iframes = document.querySelectorAll('.video-container iframe');
+                iframes.forEach(pauseAndResetVideo);
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section column-section">
+        <div class="column-section-item mission">
+          <h3>Our Mission</h3>
+        <p>
+          At KSOFT ENGINEERING CONSULTANCY SERVICES, our mission is to deliver innovative solutions that meet the evolving needs of our clients while fostering growth and sustainability.
+        </p>
+        </div>
+        <div class="column-section-item vision">
+          <h3>Our Vision</h3>
+        <p>
+          Our vision is to be a global leader in Automation Industry, empowering businesses and communities to thrive through technology and innovation.
+        </p>
+        </div>
+        
+        <a><img src="KSOFT_LOGO (1).png" alt="Company Logo"></a>
+        
+      </div>
+      <div class="footer-section explore">
+        <h3>Explore Us</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="careers.html">Career</a></li>
+          <li><a href="blog.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section location-address-group">
+        
+        <div class="address">
+          <h3>Address</h3>
+        <p>
+          KSOFT ENGINEERING CONSULTANCY SERVICES<br>
+          2866 , SWAMI MALA , SAMRTH NAGAR,<br>
+          BEHIND CHNICHWADE ASSOCIATES , KUPWAD<br>
+          CITY – SANGLI STATE – MAHARASHTRA<br>
+          COUNTRY – INDIA . ZIP CODE - 416436<br>
+          <strong>India Tel:</strong> +91 233 358 80036</strong><br>
+          <strong>USA Tel:</strong> +1 864 283 1814</strong><br>
+          <strong>Mobile India:</strong>+91 9834263224</strong><br>
+              
+          <strong>Email:</strong> keshav.dudhal@kesoftservices1.com<br>
+          <strong>WebSite:</strong> www.kesoftservices1.com
+        </p>
+        </div>
+        
+          <h3>Location</h3>
+        
+        <div class="map-container1">
+          
+          <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3818.1284953011227!2d74.624398!3d16.869537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc122c24ede5069%3A0xca829e99af6e4fc7!2s2866%2C%20Swami%20Mala%20Rd%2C%20behind%20CHNICHWADE%20ASSOCIATES%2C%20SAMRTH%20NAGAR%2C%20Sangli%20Miraj%20Kupwad%2C%20Maharashtra%20416436!5e0!3m2!1sen!2sin!4v1725972071938!5m2!1sen!2sin"
+              frameborder="0" 
+              class="location-iframe"
+              allowfullscreen="" 
+              loading="lazy">
+          </iframe>
+        </div>
+            [Company Location Description or Map]
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+ 
+      <p>&copy; 2024 KSOFT ENGINEERING CONSULTANCY SERVICES. All rights reserved.</p>
+      
+      
+    </div>
+  </footer>
+
+
+  <script src="script1.js"</script></script>
+  
+
+
+  </body>
+</html>
