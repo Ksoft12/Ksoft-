@@ -71,26 +71,62 @@ function showSectionBasedOnHash() {
       setTimeout(() => {
         targetSection.style.display = 'block';
         window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top of the page
-      }, 10); // Adjust the delay as needed (500ms in this example)
+      }, 100); // Adjust the delay as needed (100ms in this example)
     } else {
       console.error('Section not found:', urlHash);
     }
   } else {
-    // If no hash is present, you can choose to show a default section or do nothing
-    console.log('No hash present. Showing all sections.');
-    sections.forEach(section => {
-      section.style.display = 'block';
-    });
+    // If no hash is present, you can choose to show a default section or hide all sections
+    console.log('No hash present. No sections will be shown.');
   }
 }
 
 // Run the function on initial page load
 window.onload = function () {
-  setTimeout(showSectionBasedOnHash, 100); // Add a slight delay before running the function
+  showSectionBasedOnHash(); // Run the function immediately on page load
 };
 
 // Listen for changes in the hash and update the displayed section accordingly
 window.onhashchange = showSectionBasedOnHash;
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  /// Function to handle the display of sections based on URL hash
+  function showSectionBasedOnHash() {
+    const urlHash = window.location.hash; // Get the hash from the URL (e.g., #automation-engineering)
+
+    // Get all service sections by class
+    const sections = document.querySelectorAll('.service-section');
+
+    // Hide all sections by default
+    sections.forEach(section => {
+      section.style.display = 'none';
+    });
+
+    // Show the section that matches the hash after a delay
+    if (urlHash) {
+      const targetSection = document.querySelector(urlHash);
+      if (targetSection) {
+        setTimeout(() => {
+          targetSection.style.display = 'block';
+          window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to the top of the page
+        }, 100); // Adjust the delay as needed (100ms in this example)
+      } else {
+        console.error('Section not found:', urlHash);
+      }
+    } else {
+      // If no hash is present, you can choose to show a default section or hide all sections
+      console.log('No hash present. No sections will be shown.');
+    }
+  }
+
+  // Run the function on initial page load
+  showSectionBasedOnHash();
+
+  // Listen for changes in the hash and update the displayed section accordingly
+  window.addEventListener('hashchange', showSectionBasedOnHash);
+});
 
 
 
