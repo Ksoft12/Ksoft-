@@ -1786,14 +1786,15 @@ h1 {
 }
 
 .location-iframe {
-  width: 200%;
-  height: 300px;
-  margin-left: -50%;
+  width: 100%;
+  height: 300px; /* Default height for larger screens */
   border: 3px solid #007bff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  /* Ensure the map iframe is responsive */
 }
 
+/* Adjust iframe height for various screen sizes */
 @media (max-width: 1200px) {
   .contact-container {
       padding: 15px;
@@ -1826,6 +1827,33 @@ h1 {
   }
 }
 
+@media (max-width: 480px) {
+  .contact-container {
+      padding: 8px;
+  }
+
+  .custom-iframe {
+      height: 250px; /* Adjust height for very small screens */
+  }
+
+  .location-iframe {
+      height: 180px; /* Adjust map height for very small screens */
+  }
+}
+
+@media (max-width: 240px) {
+  .contact-container {
+      padding: 5px;
+  }
+
+  .custom-iframe {
+      height: 200px; /* Adjust height for extremely small screens */
+  }
+
+  .location-iframe {
+      height: 150px; /* Adjust map height for extremely small screens */
+  }
+}
 
 
 
